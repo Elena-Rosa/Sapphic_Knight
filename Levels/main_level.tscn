@@ -17475,7 +17475,6 @@ sources/1 = SubResource("TileSetAtlasSource_lpycv")
 [node name="MainLevel" type="Node2D"]
 
 [node name="TileMap" type="TileMap" parent="."]
-visible = false
 z_index = -1
 tile_set = ExtResource("2_p8cb1")
 format = 2
@@ -17723,6 +17722,7 @@ layer_34/tile_data = PackedInt32Array(131173, 4259843, 147, 196709, 4259843, 148
 [node name="Player" parent="." instance=ExtResource("1_wflg4")]
 
 [node name="Forest" type="TileMap" parent="."]
+visible = false
 tile_set = SubResource("TileSet_scbiw")
 format = 2
 layer_0/name = "Ground"

@@ -1,0 +1,28 @@
+[gd_scene load_steps=2 format=3 uid="uid://bpph7k4voel7q"]
+
+[ext_resource type="Texture2D" uid="uid://dwvb3s0mjoyc2" path="res://icon.svg" id="1_b7oxo"]
+
+[node name="Splash Page" type="ColorRect"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.713726, 0.733333, 0.992157, 1)
+
+[node name="CenterContainer" type="CenterContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextureRect" type="TextureRect" parent="CenterContainer"]
+layout_mode = 2
+texture = ExtResource("1_b7oxo")
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 2.0
+one_shot = true
+autostart = true
