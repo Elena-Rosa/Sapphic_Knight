@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://bw8sf0kv7mebn"]
+
+[ext_resource type="Texture2D" uid="uid://cvbxkqm3u3it3" path="res://Assets/Player.jpg" id="1_gnp6m"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_mpb1d"]
+size = Vector2(20, 13)
+
+[node name="Sappho" type="CharacterBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(319, 165)
+texture = ExtResource("1_gnp6m")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(318, 174.5)
+shape = SubResource("RectangleShape2D_mpb1d")

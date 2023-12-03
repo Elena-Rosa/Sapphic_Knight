@@ -1,41 +1,62 @@
-// using System;
-// using Godot;
+using Godot;
+using System;
 
-// public partial class Players :
-// Node
-// {
-// 	private Vector2 velocity = Vector2.Zero;
-// 	private Vector2 direction = Vector2.Zero;
 
-// 	private void ReadInput()
-// 	{
-// 		velocity = Vector2.Zero;
+public partial class PlayerController : CharacterBody2D
+{
+    [Export]
+    public float MoveSpeed = 100;
+    [Export]
+    public Vector2 StartingDirection = new Vector2(0, 1);
 
-// 		if (Input.IsActionPressed("ui_up"))
-// 		{
-// 			velocity.y -= 1;
-// 			direction = new Vector2(0, -1);
-// 		}
+    private AnimationTree animationTree;
+    private AnimationNodeStateMachinePlayback stateMachine;
+    private Vector2 velocity;
 
-// 		if (Input.IsActionPressed("ui_down"))
-// 		{
-// 			velocity.y += 1;
-// 			direction = new Vector2(0, 1);
-// 		}
+    public override void _Ready()
+    {
+        animationTree = GetNode<AnimationTree>("AnimationTree");
+        stateMachine = (AnimationNodeStateMachinePlayback)animationTree.Get("parameters/playback");
+        UpdateAnimationParameters(StartingDirection);
+    }
 
-// 		if (Input.IsActionPressed("ui_left"))
-// 		{
-// 			velocity.x -= 1;
-// 			direction = new Vector2(-1, 0);
-// 		}
+    public override void _PhysicsProcess(double delta)
+    {
+        // Get Input direction
+        var inputDirection = new Vector2(
+            Convert.ToSingle(Input.IsActionPressed("right")) - Convert.ToSingle(Input.IsActionPressed("left")),
+            Convert.ToSingle(Input.IsActionPressed("down")) - Convert.ToSingle(Input.IsActionPressed("up"))
+        );
 
-// 		if (Input.IsActionPressed("ui_right"))
-// 		{
-// 			velocity.x += 1;
-// 			direction = new Vector2(1, 0);
-// 		}
+        UpdateAnimationParameters(inputDirection);
 
-// 		velocity = velocity.Normalized();
-// 		velocity = MoveAndSlide(velocity * 200);
-// 	}
-// }
+        // Update Velocity
+        velocity = inputDirection.Normalized() * MoveSpeed;
+
+        // Move and slide
+        MoveAndSlide();
+
+        PickNewState();
+    }
+
+    private void UpdateAnimationParameters(Vector2 moveInput)
+    {
+        if (moveInput != Vector2.Zero)
+        {
+            animationTree.Set("parameters/idle/blend_position", moveInput);
+            animationTree.Set("parameters/walk/blend_position", moveInput);
+        }
+    }
+
+    private void PickNewState()
+    {
+        if (velocity != Vector2.Zero)
+        {
+            stateMachine.Travel("walk");
+        }
+        else
+        {
+            stateMachine.Travel("idle");
+        }
+    }
+}
