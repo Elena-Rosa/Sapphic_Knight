@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://dwxdxjivrm6oh"]
+
+[ext_resource type="PackedScene" uid="uid://bw8sf0kv7mebn" path="res://sappho.tscn" id="1_5jpkb"]
+[ext_resource type="Script" path="res://scripts/players.cs" id="2_a1is3"]
+
+[node name="DevLevel" type="Node2D"]
+
+[node name="TileMap" type="TileMap" parent="."]
+format = 2
+
+[node name="Sappho" parent="." instance=ExtResource("1_5jpkb")]
+script = ExtResource("2_a1is3")
+
+[node name="Camera2D" type="Camera2D" parent="Sappho"]

@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-[gd_scene load_steps=2 format=3 uid="uid://c7k3nb0mcf4bx"]
-=======
 [gd_scene load_steps=2 format=3 uid="uid://bpph7k4voel7q"]
->>>>>>> TownMap
 
 [ext_resource type="Texture2D" uid="uid://dwvb3s0mjoyc2" path="res://icon.svg" id="1_b7oxo"]
 
