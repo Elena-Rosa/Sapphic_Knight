@@ -1,6 +1,10 @@
 ﻿Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
+<<<<<<< HEAD
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sapphic Knight", "Sapphic Knight.csproj", "{15DF153A-E3A8-4A3F-ADB1-50DAD0DE09DE}"
+=======
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sapphic Knight", "Sapphic Knight.csproj", "{4D258023-1CBA-4694-842E-00BE840F5AD9}"
+>>>>>>> TownMap
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,11 +13,20 @@ Global
 	ExportRelease|Any CPU = ExportRelease|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+<<<<<<< HEAD
 		{15DF153A-E3A8-4A3F-ADB1-50DAD0DE09DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{15DF153A-E3A8-4A3F-ADB1-50DAD0DE09DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15DF153A-E3A8-4A3F-ADB1-50DAD0DE09DE}.ExportDebug|Any CPU.ActiveCfg = ExportDebug|Any CPU
 		{15DF153A-E3A8-4A3F-ADB1-50DAD0DE09DE}.ExportDebug|Any CPU.Build.0 = ExportDebug|Any CPU
 		{15DF153A-E3A8-4A3F-ADB1-50DAD0DE09DE}.ExportRelease|Any CPU.ActiveCfg = ExportRelease|Any CPU
 		{15DF153A-E3A8-4A3F-ADB1-50DAD0DE09DE}.ExportRelease|Any CPU.Build.0 = ExportRelease|Any CPU
+=======
+		{4D258023-1CBA-4694-842E-00BE840F5AD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D258023-1CBA-4694-842E-00BE840F5AD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D258023-1CBA-4694-842E-00BE840F5AD9}.ExportDebug|Any CPU.ActiveCfg = ExportDebug|Any CPU
+		{4D258023-1CBA-4694-842E-00BE840F5AD9}.ExportDebug|Any CPU.Build.0 = ExportDebug|Any CPU
+		{4D258023-1CBA-4694-842E-00BE840F5AD9}.ExportRelease|Any CPU.ActiveCfg = ExportRelease|Any CPU
+		{4D258023-1CBA-4694-842E-00BE840F5AD9}.ExportRelease|Any CPU.Build.0 = ExportRelease|Any CPU
+>>>>>>> TownMap
 	EndGlobalSection
 EndGlobal
