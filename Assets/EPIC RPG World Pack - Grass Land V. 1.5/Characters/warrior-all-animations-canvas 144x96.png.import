@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ddsbq2x6gehd3"
-path="res://.godot/imported/warrior-all-animations-from top to bottom(Idle-run-full combo attack with 3 swings-single swing 1-single swing 3-hurt-death)-canvas 144x96.png-5f35d3f67547301b00c0f44e76452dcc.ctex"
+path="res://.godot/imported/warrior-all-animations-canvas 144x96.png-14f16a4b8707033aa407348ca4110165.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/EPIC RPG World Pack - Grass Land V. 1.5/Characters/warrior-all-animations-from top to bottom(Idle-run-full combo attack with 3 swings-single swing 1-single swing 3-hurt-death)-canvas 144x96.png"
-dest_files=["res://.godot/imported/warrior-all-animations-from top to bottom(Idle-run-full combo attack with 3 swings-single swing 1-single swing 3-hurt-death)-canvas 144x96.png-5f35d3f67547301b00c0f44e76452dcc.ctex"]
+source_file="res://Assets/EPIC RPG World Pack - Grass Land V. 1.5/Characters/warrior-all-animations-canvas 144x96.png"
+dest_files=["res://.godot/imported/warrior-all-animations-canvas 144x96.png-14f16a4b8707033aa407348ca4110165.ctex"]
 
 [params]
 
