@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dcl8ibws3dglr"
-path="res://.godot/imported/Tileset-Terrain-new grass.png-2918a8427196171d23af06ff87cc7976.ctex"
+uid="uid://cy4fv7ixw7wmp"
+path="res://.godot/imported/Obelisk4-animation1-activating-110x180.png-8f01f114815de008e31efc0c6abe7c05.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Levels/Tileset-Terrain-new grass.png"
-dest_files=["res://.godot/imported/Tileset-Terrain-new grass.png-2918a8427196171d23af06ff87cc7976.ctex"]
+source_file="res://Assets/Forest/Obelisk4-animation1-activating-110x180.png"
+dest_files=["res://.godot/imported/Obelisk4-animation1-activating-110x180.png-8f01f114815de008e31efc0c6abe7c05.ctex"]
 
 [params]
 

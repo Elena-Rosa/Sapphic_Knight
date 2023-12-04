@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dcl8ibws3dglr"
-path="res://.godot/imported/Tileset-Terrain-new grass.png-2918a8427196171d23af06ff87cc7976.ctex"
+uid="uid://ch24o2rk1yqnh"
+path="res://.godot/imported/altar-white aura fx.png-3652378736038429a0934395e085fe9a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Levels/Tileset-Terrain-new grass.png"
-dest_files=["res://.godot/imported/Tileset-Terrain-new grass.png-2918a8427196171d23af06ff87cc7976.ctex"]
+source_file="res://Assets/Forest/altar-white aura fx.png"
+dest_files=["res://.godot/imported/altar-white aura fx.png-3652378736038429a0934395e085fe9a.ctex"]
 
 [params]
 

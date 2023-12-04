@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dcl8ibws3dglr"
-path="res://.godot/imported/Tileset-Terrain-new grass.png-2918a8427196171d23af06ff87cc7976.ctex"
+uid="uid://coydt3ri7k4du"
+path="res://.godot/imported/Atlas-Props.png-9b72b1ac3b38d4faf0ffbf21cdbbbba9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Levels/Tileset-Terrain-new grass.png"
-dest_files=["res://.godot/imported/Tileset-Terrain-new grass.png-2918a8427196171d23af06ff87cc7976.ctex"]
+source_file="res://Assets/Forest/Atlas-Props.png"
+dest_files=["res://.godot/imported/Atlas-Props.png-9b72b1ac3b38d4faf0ffbf21cdbbbba9.ctex"]
 
 [params]
 

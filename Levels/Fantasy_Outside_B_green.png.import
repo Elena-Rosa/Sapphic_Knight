@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dcl8ibws3dglr"
-path="res://.godot/imported/Tileset-Terrain-new grass.png-2918a8427196171d23af06ff87cc7976.ctex"
+uid="uid://s4ywjyxi2514"
+path="res://.godot/imported/Fantasy_Outside_B_green.png-540e1607e2d3eed80e20e144e4e76fca.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Levels/Tileset-Terrain-new grass.png"
-dest_files=["res://.godot/imported/Tileset-Terrain-new grass.png-2918a8427196171d23af06ff87cc7976.ctex"]
+source_file="res://Levels/Fantasy_Outside_B_green.png"
+dest_files=["res://.godot/imported/Fantasy_Outside_B_green.png-540e1607e2d3eed80e20e144e4e76fca.ctex"]
 
 [params]
 

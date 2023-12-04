@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dcl8ibws3dglr"
-path="res://.godot/imported/Tileset-Terrain-new grass.png-2918a8427196171d23af06ff87cc7976.ctex"
+uid="uid://sfjxe34f2t1w"
+path="res://.godot/imported/atmospheric nature particles 64x64-.png-a3b5cbecf77e41459865bb36eaf99061.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Levels/Tileset-Terrain-new grass.png"
-dest_files=["res://.godot/imported/Tileset-Terrain-new grass.png-2918a8427196171d23af06ff87cc7976.ctex"]
+source_file="res://Assets/Forest/atmospheric nature particles 64x64-.png"
+dest_files=["res://.godot/imported/atmospheric nature particles 64x64-.png-a3b5cbecf77e41459865bb36eaf99061.ctex"]
 
 [params]
 
