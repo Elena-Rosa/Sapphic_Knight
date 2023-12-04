@@ -15,7 +15,7 @@
 [ext_resource type="Texture2D" uid="uid://bm4yplur17chy" path="res://Assets/knight/ani/move6.png" id="13_8rp4s"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_miqw7"]
-size = Vector2(37.5, 11)
+size = Vector2(36.5, 51)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_3spgt"]
 animations = [{
@@ -73,7 +73,7 @@ animations = [{
 script = ExtResource("1_fkdkw")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(0.25, 31.5)
+position = Vector2(-0.25, 6.5)
 shape = SubResource("RectangleShape2D_miqw7")
 
 [node name="Camera2D" type="Camera2D" parent="."]
