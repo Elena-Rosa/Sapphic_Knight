@@ -83,14 +83,12 @@ position = Vector2(3, -5)
 zoom = Vector2(2, 2)
 
 [node name="Idle" type="AnimatedSprite2D" parent="."]
-visible = false
 position = Vector2(2, 3)
 sprite_frames = SubResource("SpriteFrames_3spgt")
 animation = &"idle"
 autoplay = "idle"
 
 [node name="Walk" type="AnimatedSprite2D" parent="."]
-visible = false
 sprite_frames = SubResource("SpriteFrames_oirqw")
 frame_progress = 0.557439
 speed_scale = 0.5
