@@ -14,8 +14,9 @@
 [ext_resource type="Texture2D" uid="uid://bvntae68mct5a" path="res://Assets/knight/ani/move5.png" id="12_wbafr"]
 [ext_resource type="Texture2D" uid="uid://bm4yplur17chy" path="res://Assets/knight/ani/move6.png" id="13_8rp4s"]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_miqw7"]
-size = Vector2(36.5, 51)
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_4ke7l"]
+radius = 14.0
+height = 44.0
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_3spgt"]
 animations = [{
@@ -73,19 +74,21 @@ animations = [{
 script = ExtResource("1_fkdkw")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(-0.25, 6.5)
-shape = SubResource("RectangleShape2D_miqw7")
+z_index = 1
+position = Vector2(0, 10)
+shape = SubResource("CapsuleShape2D_4ke7l")
 
 [node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(3, -5)
 zoom = Vector2(2, 2)
 
 [node name="Idle" type="AnimatedSprite2D" parent="."]
+position = Vector2(2, 3)
 sprite_frames = SubResource("SpriteFrames_3spgt")
 animation = &"idle"
 autoplay = "idle"
 
 [node name="Walk" type="AnimatedSprite2D" parent="."]
-visible = false
 sprite_frames = SubResource("SpriteFrames_oirqw")
 frame_progress = 0.557439
 speed_scale = 0.5
