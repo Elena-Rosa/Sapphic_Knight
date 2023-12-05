@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bul7x2x5aslbr"
-path="res://.godot/imported/Player 2.jpg-a9f6435307e9706f64190b35333b442e.ctex"
+uid="uid://bxbxhi3tyxbga"
+path="res://.godot/imported/portal-all animations-on grass-cemetery.png-fc95deed0389cbf4b8ae816030a2543d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Player 2.jpg"
-dest_files=["res://.godot/imported/Player 2.jpg-a9f6435307e9706f64190b35333b442e.ctex"]
+source_file="res://Assets/portal-all animations-on grass-cemetery.png"
+dest_files=["res://.godot/imported/portal-all animations-on grass-cemetery.png-fc95deed0389cbf4b8ae816030a2543d.ctex"]
 
 [params]
 
