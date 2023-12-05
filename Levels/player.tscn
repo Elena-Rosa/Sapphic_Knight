@@ -14,8 +14,8 @@
 [ext_resource type="Texture2D" uid="uid://bvntae68mct5a" path="res://Assets/knight/ani/move5.png" id="12_wbafr"]
 [ext_resource type="Texture2D" uid="uid://bm4yplur17chy" path="res://Assets/knight/ani/move6.png" id="13_8rp4s"]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_miqw7"]
-size = Vector2(28, 15)
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ovewp"]
+size = Vector2(41, 18)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_3spgt"]
 animations = [{
@@ -73,13 +73,14 @@ animations = [{
 script = ExtResource("1_fkdkw")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(0, 28.5)
-shape = SubResource("RectangleShape2D_miqw7")
+position = Vector2(2.5, 22)
+shape = SubResource("RectangleShape2D_ovewp")
 
 [node name="Camera2D" type="Camera2D" parent="."]
 zoom = Vector2(2, 2)
 
 [node name="Idle" type="AnimatedSprite2D" parent="."]
+position = Vector2(2, -8)
 sprite_frames = SubResource("SpriteFrames_3spgt")
 animation = &"idle"
 autoplay = "idle"
