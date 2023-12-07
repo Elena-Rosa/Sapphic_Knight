@@ -8,7 +8,7 @@ size = Vector2(20, 13)
 [node name="Sappho" type="CharacterBody2D"]
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-position = Vector2(319, 165)
+position = Vector2(318, 172)
 texture = ExtResource("1_gnp6m")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
