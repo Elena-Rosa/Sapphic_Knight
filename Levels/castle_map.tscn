@@ -1,9 +1,12 @@
-[gd_scene load_steps=10 format=3 uid="uid://dml2bf0c6r6rt"]
+[gd_scene load_steps=13 format=3 uid="uid://dml2bf0c6r6rt"]
 
+[ext_resource type="Script" path="res://Levels/player.cs" id="1_dl73a"]
 [ext_resource type="Texture2D" uid="uid://s4ywjyxi2514" path="res://Levels/Fantasy_Outside_B_green.png" id="1_yyhv8"]
 [ext_resource type="Texture2D" uid="uid://d130ai8wabyyw" path="res://Levels/Fantasy_Outside_A5.png" id="2_ks28r"]
 [ext_resource type="Texture2D" uid="uid://gway1ojwny5s" path="res://Levels/Fantasy_Outside_A4_green.png" id="3_kejig"]
 [ext_resource type="Texture2D" uid="uid://bphpb362d54c0" path="res://Levels/Fantasy_Outside_A3.png" id="4_dwdwd"]
+[ext_resource type="PackedScene" uid="uid://dwdkj5pc50gc1" path="res://Levels/player.tscn" id="6_2gkvm"]
+[ext_resource type="PackedScene" uid="uid://c0adtbaushndd" path="res://enemy_one.tscn" id="7_6iuhf"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_c55ga"]
 texture = ExtResource("1_yyhv8")
@@ -6128,6 +6131,7 @@ sources/2 = SubResource("TileSetAtlasSource_blr43")
 sources/3 = SubResource("TileSetAtlasSource_p45ek")
 
 [node name="CastleMap" type="Node2D"]
+script = ExtResource("1_dl73a")
 
 [node name="Castle" type="TileMap" parent="."]
 tile_set = SubResource("TileSet_ioa3i")
@@ -6169,3 +6173,7 @@ layer_5/y_sort_enabled = false
 layer_5/y_sort_origin = 0
 layer_5/z_index = 0
 layer_5/tile_data = PackedInt32Array(851962, 655360, 36, 917498, 655360, 37, 983034, 655360, 38, 1048570, 655360, 39, 1114106, 655360, 40, 1179642, 655360, 41, 1245178, 655360, 42, 851963, 720896, 36, 917499, 720896, 37, 983035, 720896, 38, 1048571, 720896, 39, 1114107, 720896, 40, 851964, 786432, 36, 917500, 786432, 37, 983036, 786432, 38, 1048572, 786432, 39, 1114108, 786432, 40, 786435, 0, 39, 851971, 0, 40, 786436, 65536, 39, 851972, 65536, 40, 786437, 131072, 39, 851973, 131072, 40, 917508, 655360, 36, 983044, 655360, 37, 917509, 720896, 36, 983045, 720896, 37, 917510, 786432, 36, 983046, 786432, 37, 786471, 393216, 37, 852007, 393216, 38, 917543, 393216, 39, 983079, 393216, 40, 1048615, 393216, 41, 720936, 458752, 36, 786472, 458752, 37, 852008, 458752, 38, 917544, 458752, 39, 983080, 458752, 40, 1048616, 458752, 41, 720937, 524288, 36, 786473, 524288, 37, 852009, 524288, 38, 917545, 524288, 39, 983081, 524288, 40, 1048617, 524288, 41, 851932, 1114112, 36, -1114117, 1376256, 1, -1048581, 1376256, 2, -1114116, 1441792, 1, -1048580, 1441792, 2, -1114115, 1441792, 1, -1048579, 1441792, 2, -1114114, 1441792, 1, -1048578, 1441792, 2, -1114113, 1441792, 1, -1048577, 1441792, 2, -1179648, 1441792, 1, -1114112, 1441792, 2, -1179647, 1441792, 1, -1114111, 1441792, 2, -1179646, 1441792, 1, -1114110, 1441792, 2, -1179645, 1507328, 1, -1114109, 1507328, 2, 917468, 1114112, 37, 983004, 1114112, 38, 1048540, 1114112, 39, 1114076, 1114112, 40, 851933, 1179648, 36, 917469, 1179648, 37, 983005, 1179648, 38, 1048541, 1179648, 39, 1114077, 1179648, 40, 851934, 1245184, 36, 917470, 1245184, 37, 983006, 1245184, 38, 1048542, 1245184, 39, 1114078, 1245184, 40, 851935, 1310720, 36, 917471, 1310720, 37, 983007, 1310720, 38, 1048543, 1310720, 39, 1114079, 1310720, 40)
+
+[node name="Player" parent="Castle" instance=ExtResource("6_2gkvm")]
+
+[node name="enemyOne" parent="Castle" instance=ExtResource("7_6iuhf")]
