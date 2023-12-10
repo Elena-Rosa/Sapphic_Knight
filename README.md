@@ -10,6 +10,7 @@
 * GDScript
 * Godot
 
+
 ## Description
 
 The king has overtaxed the town of main character Sappho, a knight that abandoned their knighthood because of the injustices against others not living to societal normalities. The town is made of others that do not live within societal norms. Different genders, love for others of the same gender, individuals that were born in the wrong gendered body at birth. Because of these aspects the king has heavily taxed the town to where they can not afford to live and eat. The town was not able to afford the last tax payment due, so the king sent in his team of knights and slaughtered their family and friends. The team of knights that killed their town was part of the same team she was on, as a parting nod to their time spent together, they let them keep their life.
